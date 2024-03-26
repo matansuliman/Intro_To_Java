@@ -1,0 +1,38 @@
+********** Test Rent - Started **********
+
+1. Testing Constructors and toString:
+	r1:Name:Ruthi From:01/02/2020 To:05/02/2020 Type:A Days:4 Price:400
+	r2:Name:Ruthi From:01/02/2020 To:05/02/2020 Type:A Days:4 Price:400
+
+2. Testing accessors and mutators:
+	r1:Name:Maya From:03/02/2020 To:09/02/2020 Type:B Days:6 Price:900
+	name of r1:Maya
+	car of r1:id:9876543 type:B brand:BMW gear:manual
+	pickDate of r1:03/02/2020
+	returnDate of r1:09/02/2020
+
+3. Testing equals method:
+	r2:Name:Ruthi From:01/02/2020 To:05/02/2020 Type:A Days:4 Price:400
+	r3:Name:Rambo From:10/04/2021 To:20/04/2021 Type:D Days:10 Price:2232
+	r4:Name:Rambo From:10/04/2021 To:20/04/2021 Type:D Days:10 Price:2232
+	r2 isn't the same Rent as r3
+	r3 is the same Rent as r4
+
+4. Testing howMantDays method:
+	r2: 4 days.
+	r3: 10 days.
+
+5. Testing getPrice method:
+	price of r2: 400
+	price of r3: 2232
+
+6. Testing upgrade method:
+	upgrade r2 to car type 'D' returns: 560
+
+7. Testing overlap method:
+	r5:Name:Bob From:01/02/2020 To:05/02/2020 Type:A Days:4 Price:400
+	r6:Name:Bob From:04/02/2020 To:08/02/2020 Type:A Days:4 Price:400
+	overlap of r5 and r6 is: Name:Bob From:01/02/2020 To:08/02/2020 Type:A Days:7 Price:630
+
+********** Test Rent - Finished **********
+

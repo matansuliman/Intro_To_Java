@@ -1,0 +1,30 @@
+********** Test Car - Started **********
+
+1. Testing Constructors and toString:
+	c1:id:1234567 type:A brand:Toyota gear:manual
+	c2:id:1234567 type:A brand:Toyota gear:manual
+
+2. Testing accessors and mutators:
+	c1:id:8888888 type:B brand:Mazda gear:auto
+
+	id of c1:8888888
+	brand of c1:Mazda
+	type of c1:B
+	isManual of c1:false
+
+3. Testing equals method:
+	c2:id:1234567 type:A brand:Toyota gear:manual
+	c3:id:9999999 type:B brand:Mazda gear:auto
+	c4:id:9999999 type:B brand:Mazda gear:auto
+
+	c2 isn't the same Car as c3
+	c3 is the same Car as c4
+
+4. Testing better method:
+	c2 isn't better than c3
+
+5. Testing worse method:
+	c2 is worse than c3
+
+********** Test Date - Finished **********
+
