@@ -1,3 +1,5 @@
+# Intro to JAVA
+
 ## Q1:
 ## explanation:
 * This method gets a string of 0's and 1's and calculates the minimun number of swaps required to create an alternating sequence. 
